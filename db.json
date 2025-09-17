@@ -1,0 +1,117 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "admin_id": "prasad_admin",
+      "password": "prasad12"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "user_id": "sai_user",
+      "user_name": "saimuddada",
+      "password": "sai123",
+      "email": "sai@gmail.com"
+    },
+    {
+      "id": "2",
+      "user_id": "naveen_user",
+      "user_name": "naveenravada",
+      "password": "naveen123",
+      "email": "naveen@gmail.com"
+    },
+    {
+      "id": "1c25",
+      "user_id": "srinu_user",
+      "user_name": "srinumukalla",
+      "password": "srinu123",
+      "email": "srinu@gmail.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "category_id": 1,
+      "category_name": "React"
+    },
+    {
+      "id": "2",
+      "category_id": 2,
+      "category_name": "Java"
+    },
+    {
+      "id": "3",
+      "category_id": 3,
+      "category_name": "Python"
+    }
+  ],
+  "videos": [
+    {
+      "title": "React",
+      "description": "Welcome react class",
+      "url": "https://www.youtube.com/embed/6DP7cMN99zQ",
+      "likes": 200,
+      "dislikes": 20,
+      "views": 2000,
+      "comments": "i have learnt a  basics about react from this video",
+      "category_id": 1,
+      "id": "1"
+    },
+    {
+      "id": "4daf",
+      "title": "Java",
+      "description": "Java online training",
+      "url": "https://www.youtube.com/embed/prfwlnq2vJY",
+      "likes": 100,
+      "dislikes": 20,
+      "views": 1000,
+      "comments": "Informative video",
+      "category_id": 2
+    },
+    {
+      "id": "0489",
+      "title": "Python",
+      "description": "Python online training",
+      "url": "https://www.youtube.com/embed/K5KVEU3aaeQ",
+      "likes": 500,
+      "dislikes": 100,
+      "views": 6000,
+      "comments": "Python is very interesting language",
+      "category_id": 3
+    },
+    {
+      "id": "0ca4",
+      "title": "React Demo",
+      "description": "React online demo",
+      "url": "https://www.youtube.com/embed/zUx56TYIE24",
+      "likes": 350,
+      "dislikes": 90,
+      "views": 1250,
+      "comments": "I like this video",
+      "category_id": 1
+    },
+    {
+      "id": "5c6a",
+      "title": "Java Demo",
+      "description": "Java Online Demo",
+      "url": "https://www.youtube.com/embed/aMaayeDW360",
+      "likes": 96,
+      "dislikes": 12,
+      "views": 492,
+      "comments": "good",
+      "category_id": 2
+    },
+    {
+      "id": "15e1",
+      "title": "Python Demo",
+      "description": "Python online Demo",
+      "url": "https://www.youtube.com/embed/NpmFbWO6HPU",
+      "likes": 250,
+      "dislikes": 112,
+      "views": 553,
+      "comments": "Informative video",
+      "category_id": 3
+    }
+  ]
+}
