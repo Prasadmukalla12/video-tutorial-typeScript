@@ -27,6 +27,13 @@
       "user_name": "srinumukalla",
       "password": "srinu123",
       "email": "srinu@gmail.com"
+    },
+    {
+      "id": "22be",
+      "user_id": "prasad_mukalla",
+      "user_name": "prasad",
+      "password": "prasad12",
+      "email": "prasadmukalla124@gamil.com"
     }
   ],
   "categories": [

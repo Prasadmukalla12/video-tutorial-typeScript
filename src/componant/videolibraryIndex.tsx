@@ -25,7 +25,7 @@ export function VideoLibraryIndex(){
     return(
         <div className="container-fluid bg">
             <BrowserRouter>
-              <header className="d-flex bg-secondary justify-content-between align-items-centerd p-3 border border-3 position-sticky top-0">
+              <header className="d-flex bg-secondary justify-content-between align-items-centerd p-3 border border-3">
                 <div><h3>Video-Library</h3></div>
                 <div><Link to="/" onClick={handleHomeClick} className="bi bi-house btn btn-primary"></Link></div>
               </header>

@@ -78,7 +78,7 @@ export function UserDashboard(){
 
     return(
         <div className="container-fluid">
-            <div className="p-3 d-flex justify-content-between align-items-center position-sticky top-0">
+            <div className="p-3 d-flex justify-content-between align-items-center">
                 <div><h3 className="text-white">User Dashboard</h3></div>
                 <div className="d-flex justify-content-between align-items-center">
                     <div><input onChange={handleSearchChange} type="text" className="form-control" /></div>
