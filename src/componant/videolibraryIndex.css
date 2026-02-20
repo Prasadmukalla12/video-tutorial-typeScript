@@ -1,5 +1,5 @@
 .bg{
-    background-image: url("./podcast.jpg");
+    background-image: url("../../public/podcast.jpg");
     background-size: cover;
     height: 200vh;
 }
