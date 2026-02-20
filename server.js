@@ -2,7 +2,9 @@ const mongoClient = require("mongodb").MongoClient
 const express = require("express")
 const cors = require("cors")
 
-const mongodb = process.env.MONGO_URL
+// const mongodb = process.env.MONGO_URL
+
+const mongodb = "mongodb://127.0.0.1:27017"
 
 const app = express()
 app.use(cors())
@@ -163,7 +165,5 @@ app.use((req,res)=>{
     res.status(404).write("404 - Not found")
     res.end()
 })
-
-app.listen(port,()=>{
-    `server started on port - 4000`
-})
+app.listen(4000);
+console.log("server : http://localhost:4000")
